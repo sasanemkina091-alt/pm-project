@@ -3,12 +3,12 @@
 Система управления проектами и задачами для небольших команд.
 
 ## Стек
-* Python 3.10+
-* Flask
+* Python 3.11
+* Flask 3.0
 * SQLite
-* Bootstrap 5
 
 ## Установка
-1. Клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/sasanemkina091-alt/pm-project.git
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Для Windows: .venv\Scripts\activate
+pip install -r requirements.txt
